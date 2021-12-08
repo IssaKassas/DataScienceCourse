@@ -1,0 +1,14 @@
+git is a software that allows you to deploy(upload) 
+your files in your repository or your projects
+git is a software to versioning control your package
+#first one you should create an account in github
+
+# repository means a folder
+
+# github commands in cmd to deploy or publish your projects
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/IssaKassas/mostafa.git
+git push -u origin main
